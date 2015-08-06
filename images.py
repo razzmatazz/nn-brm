@@ -230,6 +230,18 @@ IMAGES_8 = [
     "#   #"
     " ### ",
 
+    "#####"
+    "#   #"
+    "#####"
+    "#   #"
+    " ####",
+
+    "  ###"
+    " #  #"
+    "#####"
+    "#   #"
+    " ####",
+
     " ### "
     " #  #"
     " ### "
@@ -471,8 +483,53 @@ IMAGES_9 = [
 
 ]
 
+IMAGES_F = [
+    " ####"
+    "#    "
+    "#####"
+    "#    "
+    "#    ",
 
-IMAGES = IMAGES_EMPTY + IMAGES_1 + IMAGES_2 + IMAGES_7 + IMAGES_A + IMAGES_3 + IMAGES_Y + IMAGES_X + IMAGES_O + IMAGES_6 + IMAGES_5 + IMAGES_9
+    "  ###"
+    " #   "
+    "###  "
+    "#    "
+    "#    ",
+
+    "  ###"
+    "  #  "
+    " ### "
+    "#    "
+    "#    ",
+
+    " ####"
+    "#    "
+    " ##  "
+    "#    "
+    "#    ",
+
+    "#### "
+    "#    "
+    "###  "
+    " #   "
+    "  #  ",
+
+    "     "
+    " ####"
+    "###  "
+    "#    "
+    "#    ",
+
+    "  ###"
+    " #   "
+    "#####"
+    " #   "
+    " #   ",
+
+]
+
+
+IMAGES = IMAGES_EMPTY + IMAGES_1 + IMAGES_2 + IMAGES_7 + IMAGES_A + IMAGES_3 + IMAGES_Y + IMAGES_X + IMAGES_O + IMAGES_6 + IMAGES_5 + IMAGES_9 + IMAGES_F
 IMAGE_DIM = 5
 
 def num_to_char(n):
