@@ -12,7 +12,7 @@ def run():
     try:
         net = Network.load(LAYER1_FILENAME)
     except IOError:
-        net = Network(LAYER1_FILENAME, 5 * 5, 16)
+        net = Network(LAYER1_FILENAME, 5 * 5, 32)
 
     input_list = [list(read_image(ascii)) for ascii in IMAGES]
 

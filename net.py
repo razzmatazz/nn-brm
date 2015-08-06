@@ -51,7 +51,7 @@ class Network(object):
         mod_inputs = []
 
         if can_show_something():
-            for input in random.sample(input_list, 8):
+            for input in random.sample(input_list, 1):
                 mod_inputs.append(input)
                 mod_inputs.append(self.backwards(self.forward(input)))
 
@@ -67,6 +67,7 @@ class Network(object):
         with file(filename) as f:
             net = pickle.loads(f.read())
             assert net.filename == filename
+
             return net
 
     def train_input(self, input):
