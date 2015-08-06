@@ -17,7 +17,7 @@ def run():
         input = net.backwards(hidden)
         print_images([input])
 
-        time.sleep(.125)
+        time.sleep(.075)
 
 if __name__ == "__main__":
     run()
