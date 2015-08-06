@@ -1,6 +1,6 @@
 # About
 
-This is a toy implementation of a (boltzman restricted machine)[https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine].
+This is a toy implementation of a [boltzman restricted machine](https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine).
 
 Just run ./main.py.
 
