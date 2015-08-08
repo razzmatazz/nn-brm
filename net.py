@@ -40,8 +40,9 @@ class Network(object):
 
         weight_deltas = [.0] * len(self.weights)
 
-        sample_size = len(input_list) / 3
-        for input in random.sample(input_list, sample_size):
+        #sample_size = len(input_list) / 3
+        #for input in random.sample(input_list, sample_size):
+        for input in input_list:
             train_deltas = self.train_input(input)
 
             weight_deltas = [a + b for a, b in zip(weight_deltas, train_deltas)]
