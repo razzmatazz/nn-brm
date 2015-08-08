@@ -4,6 +4,8 @@ This is a toy implementation of a [boltzman restricted machine](https://en.wikip
 
 You can also add more "images" in `images.py` to train the network.
 
+See [my blogpost](http://saulius-the-developer.blogspot.com.au/2015/08/toying-with-neural-networks-boltzman.html) for more details.
+
 ## Usage
 
 Run ./main.py for a while so network learns from `images.py`.
