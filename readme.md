@@ -13,5 +13,5 @@ Run ./main.py for a while so network learns from `images.py`.
 Then you can run `read.py` to evaluate an image against network, or
 run `dream.py` to see how the network fluctuates around it's "fantasies".
 
-You can also do `cat img-2.img > ./read.py` to check how network
+You can also do `cat img-2.img | ./read.py` to check how network
 reflects on the image supplied.
